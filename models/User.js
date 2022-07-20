@@ -16,7 +16,7 @@ constUserSchema = new mongoose.Schima({
   },
   password: {
     type: String,
-    require: true,
+    required: true,
     min: 6,
     max: 50,
   },
@@ -51,6 +51,6 @@ constUserSchema = new mongoose.Schima({
   },
 },
 
-{ timestanps: true }
+{ timestamps: true }
 
 );
